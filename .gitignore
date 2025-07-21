@@ -1,0 +1,12 @@
+# Virtual environment
+venv/
+.env/
+__pycache__/
+*.pyc
+
+# VSCode config (optional)
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
