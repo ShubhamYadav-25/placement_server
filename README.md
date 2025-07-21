@@ -1,15 +1,66 @@
-# Create this folder on the same folder where placement_portal is created
+# 🛠️ Server Setup Guide
 
-open the terminal navigate to server folder
+This folder should be created in the **same directory** as the `placement_portal` project.
 
-#write commands as shown
+---
 
-py -m venv venv
+## 📂 Folder Structure
 
-venv/Scripts/activate
+```
+your-project/
+├── placement_portal/
+└── server/   ← you're here
+```
 
-pip install -r requirements.txt
+---
 
-if some import error occurs install that package manually using - pip install module_name/package
+## 🚀 Getting Started
 
-#To start the server run - py app.py
+1. Open your terminal and navigate to the `server` folder:
+
+   ```bash
+   cd server
+   ```
+
+2. Create a virtual environment:
+
+   ```bash
+   py -m venv venv
+   ```
+
+3. Activate the virtual environment:
+
+   ```bash
+   venv\Scripts\activate
+   ```
+
+4. Install required packages from `requirements.txt`:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+---
+
+## 🧰 Fixing Import Errors
+
+If you run into any module import errors, manually install the missing package:
+
+```bash
+pip install <module_name>
+```
+
+---
+
+## ▶️ Running the Server
+
+To start the Python server:
+
+```bash
+py app.py
+```
+
+---
+
+Feel free to customize this further! Want me to help embed this into your project or add frontend integration notes? I’ve got ideas.
+
