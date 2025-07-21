@@ -51,6 +51,7 @@ pip install <module_name>
 ```
 
 ---
+## Relocate the ResumeUpload.jsx to the Pages/ folder
 
 ## ▶️ Running the Server
 
@@ -63,4 +64,3 @@ py app.py
 ---
 
 Feel free to customize this further! Want me to help embed this into your project or add frontend integration notes? I’ve got ideas.
-
